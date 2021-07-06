@@ -229,9 +229,21 @@ ul#banner-list li {
 
 .positioning2{
 	margin-top: 100px;
-	margin-left: 144px;
+	margin-left: 144px;    
+	flex: 50%; /* Set the width of the sidebar */
+    background-color: white; /* White background color */
+    padding: 20px; /* Some padding */
+
 }
 
 .positioning3{
 	margin-left: 130px;
+}
+
+.positioning4{
+	flex: 50%; /* Set the width of the main content */
+    background-color: white; /* White background color */
+    padding: 20px; /* Some padding */
+    border:none; 
+
 }
